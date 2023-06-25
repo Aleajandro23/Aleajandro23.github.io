@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+<head>
+	<title>Info Producto Matrices</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="subpage">
+
+	<!-- Header -->
+	<header id="header" class="alt">
+		<div class="logo"><a href="index.html">Algebra Lineal <span>by RUBEN</span></a></div>
+		<a href="#menu"><span>Menu</span></a>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="generic.html">Explicacion</a></li>
+			<!-- <li> <a href="elements.html">Elements</a></li> -->
+		</ul>
+	</nav>
+
+	<!-- Content -->
+	<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+	<section id="post" class="wrapper bg-img" data-bg="banner4.jpg">
+		<div class="inner">
+			<article class="box">
+				<header>
+					<h2>Producto MATRICES</h2>
+					<p>____________________________________________________</p>
+				</header>
+				<div class="content"style="text-align: center;">
+					
+					<p>El producto de matrices se realiza multiplicando las filas de la primera matriz con las columnas
+						de la segunda matriz. Cada elemento de la matriz resultante se calcula sumando el producto de
+						los elementos correspondientes de la fila y la columna. Es importante asegurarse de que el
+						número de columnas de la primera matriz sea igual al número de filas de la segunda matriz para
+						que la multiplicación sea posible.</p>
+					<h3> Ejemplo de Aplicación en la Vida Real: </h3>
+					<p>Un ejemplo de aplicación del producto de matrices en la vida real es en el análisis de datos y la
+						inteligencia artificial. Por ejemplo, en el campo de la recomendación de productos en línea, se
+						pueden utilizar algoritmos de aprendizaje automático basados en matrices para encontrar
+						similitudes entre los usuarios y los productos. El producto de matrices ayuda a calcular las
+						calificaciones o preferencias predichas de un usuario para productos no vistos, en función de
+						las calificaciones dadas por otros usuarios a esos productos.</p>
+					<h3>CODIGO JAVA:</h3>
+					 <!-- <h3>Imágenes:</h3> -->
+					<div class="image-container">
+						<img src="images/imagen1.png" alt="Imagen 1"style="width: 400px;" >
+						<p>public static void main(String[] args): Este método es el punto de entrada del programa. Solicita al usuario ingresar el tamaño de las matrices y los valores de los elementos. Luego, llama a los métodos correspondientes para realizar la multiplicación y mostrar el resultado.</p>
+					</div>
+
+					<div class="image-container">
+						<img src="images/imagen2.png" alt="Imagen 2"style="width: 400px;">
+						<p>public static void ingresarValoresMatriz(int[][] matriz, String nombre, Scanner scanner): Este método se utiliza para ingresar los valores de los elementos de una matriz. Recibe como argumentos la matriz a la que se ingresarán los valores, un nombre para mostrar en los mensajes de entrada y un objeto Scanner para leer la entrada del usuario.</p>
+					</div>
+
+					<div class="image-container">
+						<img src="images/imagen3.png" alt="Imagen 3"style="width: 400px;">
+						<p>public static int[][] multiplicarMatrices(int[][] matrizA, int[][] matrizB): Este método realiza la multiplicación de dos matrices y devuelve la matriz resultado. Toma dos matrices como argumentos y utiliza bucles for anidados para realizar la multiplicación de los elementos.</p>
+					</div>
+
+					<div class="image-container">
+						<img src="images/imagen4.png" alt="Imagen 4"style="width: 400px;">
+						<p>public static void imprimirMatriz(int[][] matriz): Este método se utiliza para imprimir una matriz en la consola. Recibe una matriz como argumento y utiliza bucles for para recorrer y mostrar los elementos de la matriz.</p>
+					</div>
+
+					<div class="image-container">
+						<img src="images/imagen5.png" alt="Imagen 5"style="width: 400px;">
+						<p>El código completo realiza los siguientes pasos:
+
+							Solicita al usuario ingresar el tamaño de las matrices.
+							Verifica si las matrices se pueden multiplicar (el número de columnas de la matriz A debe ser igual al número de filas de la matriz B). Si no se cumple esta condición, muestra un mensaje de error y finaliza el programa.
+							Crea las matrices A y B con los tamaños especificados.
+							Solicita al usuario ingresar los valores de los elementos de las matrices A y B.
+							Llama al método multiplicarMatrices para realizar la multiplicación y obtiene la matriz resultado.
+							Imprime las matrices A, B y el resultado de la multiplicación utilizando el método imprimirMatriz.
+							Este código es un ejemplo básico de multiplicación de matrices en Java, que puede servir como punto de partida para desarrollar programas más complejos relacionados con el álgebra lineal.</p>
+					</div>
+				</div>
+				<footer>
+					<ul class="actions">
+						<li><a href="#" class="button alt icon fa-chevron-left"><span class="label">Previous</span></a>
+						</li>
+						<li><a href="#" class="button alt icon fa-chevron-right"><span class="label">Next</span></a>
+						</li>
+					</ul>
+				</footer>
+			</article>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+
+			<h2>Contactame</h2>
+
+			<form action="#" method="post">
+
+				<div class="field half first">
+					<label for="name">Nombre</label>
+					<input name="name" id="name" type="text" placeholder="Name">
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input name="email" id="email" type="email" placeholder="Email">
+				</div>
+				<div class="field">
+					<label for="message">Mensaje</label>
+					<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input value="Enviar Mensaje" class="button alt" type="submit"></li>
+				</ul>
+			</form>
+
+			<ul class="icons">
+				<li><a href="#" class="icon round fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon round fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="https://instagram.com/rubenalejandroc123?igshid=ZDc4ODBmNjlmNQ==" class="icon round fa-instagram"><span class="label">Instagram</span></a></li>
+			</ul>
+
+			<div class="copyright">
+				&copy; AlgebraLineal. Design: <a href="https://instagram.com/rubenalejandroc123?igshid=ZDc4ODBmNjlmNQ==">Ruben Condoy</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+			</div>
+
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
